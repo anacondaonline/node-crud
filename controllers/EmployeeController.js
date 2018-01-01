@@ -1,6 +1,6 @@
 var mongoose = require("mongoose");
 
-var Employee = mongoose.model("Employee");
+var Employee = require('../models/Employee')
 
 var employeeController = {};
 
